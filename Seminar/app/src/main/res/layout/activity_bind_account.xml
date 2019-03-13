@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhu.seminar.Account.BindAccount">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/PCL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="請選擇以下其中一個方式登入"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <Button
+            android:id="@+id/Email"
+            android:layout_width="186dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="30dp"
+            android:text="使用信箱帳號" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/Facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

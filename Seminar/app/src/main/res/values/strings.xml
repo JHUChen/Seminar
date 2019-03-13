@@ -1,0 +1,83 @@
+<resources>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="app_name">Seminar</string>
+    <string name="facebook_app_id">1815179502133007</string>
+    <string name="signup">註冊</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="login">登入</string>
+    <string name="plz_input_accout">請輸入帳號</string>
+    <string name="plz_input_pw">請輸入密碼</string>
+    <string name="plz_input_hi">請輸入身高</string>
+    <string name="register_success">註冊成功\n請至信箱收取確認信開通帳號！</string>
+    <string name="reset_success">已寄出重設密碼信件\n請至信箱確認！</string>
+    <string name="logout">登出</string>
+    <string name="login_success">登入成功</string>
+    <string name="gender">性別</string>
+    <string name="age">年齡</string>
+    <string name="height">身高</string>
+    <string name="action_settings">設定</string>
+    <string name="action_signout">登出</string>
+    <string name="hello_world">Pinch to zoom in or out!</string>
+
+    <string name="invalid_device_data">Invalid Device Data!</string>
+    <string name="no_data">No data</string>
+    <string name="not_supported">Not supported</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="supported">Supported</string>
+    <string name="unknown">unknown</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="no_known_services">No known services</string>
+    <string name="header_device_info">Device Info</string>
+    <string name="header_raw_ad_records">Raw Ad Records</string>
+    <string name="header_rssi_info">RSSI Info</string>
+    <string name="header_scan_record">Scan Record</string>
+
+    <!-- Formatters -->
+    <string name="formatter_db">%sdb</string>
+    <string name="formatter_item_count">Items: %s</string>
+
+    <!-- Menu items -->
+    <string name="menu_about">About</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_share">Share</string>
+
+    <!-- Labels -->
+    <string name="label_as_array">As Array:</string>
+    <string name="label_as_string">As String:</string>
+    <string name="label_bluetooth_le_status">Bluetooth LE:</string>
+    <string name="label_bluetooth_status">Bluetooth:</string>
+    <string name="label_bonding_state">Bonding State:</string>
+    <string name="label_desc">Desc:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_device_class">Device Class:</string>
+    <string name="label_device_major_class">Major Class:</string>
+    <string name="label_device_services">Services:</string>
+    <string name="label_device_name">Device Name:</string>
+    <string name="label_first_rssi">First RSSI:</string>
+    <string name="label_first_timestamp">First Timestamp:</string>
+    <string name="label_last_rssi">Last RSSI:</string>
+    <string name="label_last_timestamp">Last Timestamp:</string>
+    <string name="label_rssi">RSSI:</string>
+    <string name="label_running_average_rssi">Running Average RSSI:</string>
+    <string name="label_state">State:</string>
+    <string name="label_uuid">UUID:</string>
+    <string name="label_notify_data">Notify Data:\n</string>
+
+    <string name="no_connected_device">您还没有添加设备哟</string>
+    <string name="no_scan_device">周围没有扫描到设备哟</string>
+
+    <string name="label_input">输入:</string>
+    <string name="label_output">输出:</string>
+    <string name="label_select_read_characteristic">选择可读服务</string>
+    <string name="label_select_write_characteristic">选择可写服务</string>
+    <string name="label_select_notify_characteristic">选择可通知服务</string>
+    <string name="label_send">发送</string>
+</resources>
